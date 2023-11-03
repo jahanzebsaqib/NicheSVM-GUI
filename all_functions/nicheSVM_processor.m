@@ -78,33 +78,8 @@ function nicheSVM_processor(n_e_co , n_p_co , n_l_co , n_clusters , n_g_input_pa
         DEGlists_PIC_vs_AD(mk_deglist,bestMatch,artificialDoubletsCombiUnique,pCutoff,lrCutoff,pvalue_totalPIC_AD,logRatio_totalPIC_AD,gene_name)
         msgbox("Analysis Completed!","Success");
 
-
-
-%         mail = 'jahanzeb.ssu@gmail.com'; 
-%         password = 'babajee123';
-%         setpref('Internet','SMTP_Server','smtp.gmail.com');
-%         setpref('Internet','E_mail',mail);
-%         setpref('Internet','SMTP_Username',mail);
-%         setpref('Internet','SMTP_Password',password);
-%         props = java.lang.System.getProperties;
-%         props.setProperty('mail.smtp.auth','true');
-%         props.setProperty('mail.smtp.starttls.enable','true');
-%         sendmail('bscs133301@gmail.com','R SVM compilation completed','Hello! This is a test from MATLAB!')
-        
     catch me
-        disp('Something bad happend!')
-%         mail = 'jahanzeb.ssu@gmail.com'; 
-%         password = 'babajee123';
-%         setpref('Internet','SMTP_Server','smtp.gmail.com');
-%         setpref('Internet','E_mail',mail);
-%         setpref('Internet','SMTP_Username',mail);
-%         setpref('Internet','SMTP_Password',password);
-%         props = java.lang.System.getProperties;
-%         props.setProperty('mail.smtp.auth','true');
-%         props.setProperty('mail.smtp.starttls.enable','true');
-%         sendmail('bscs133301@gmail.com','R SVM compilation FAIL','Hello! This is a test from MATLAB!')
-%         msgbox("Something went wrong!","Error","error");
-        
+      
     end
 end
 
