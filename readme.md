@@ -1,10 +1,16 @@
 # Welcome to NicheSVM GUI: Unveiling Niche-Specific Gene Signatures in Tumor Microenvironments
 
+If you use NicheSVM-GUI please cite our paper:
+
+Saqib, Jahanzeb, Beomsu Park, Yunjung Jin, Junseo Seo, Jaewoo Mo, and Junil Kim. "Identification of Niche-Specific Gene Signatures between Malignant Tumor Microenvironments by Integrating Single Cell and Spatial Transcriptomics Data." Genes 14, no. 11 (2023): 2033.
+[https://www.mdpi.com/2073-4425/14/11/2033](https://www.mdpi.com/2073-4425/14/11/2033)
+[https://doi.org/10.3390/genes14112033](https://doi.org/10.3390/genes14112033)
+
 NicheSVM GUI is an intuitive and user-friendly graphical interface for analyzing single-cell and spatial transcriptomics data, specifically designed to uncover niche-specific gene signatures within tumor microenvironments. This tool uses support vector machines (SVMs) and statistical analysis to find unique gene sets that describe the interactions and expressions of neighboring cell types in a tissue microenvironment.
 
 ## About NicheSVM
 
-NicheSVM GUI is an extension of the original NicheSVM framework, which was made for analyzing Physically Interacting Cell Sequencing (PIC-seq) data. It has been changed so that it can handle 10X Visium data without any problems. The tool uses multiclass SVMs to separate spatial transcriptomic data, which makes it possible to find gene sets that are unique to the area of cells in a given space. This concept introduces the idea of 'niche-specific genes,' whose expression is enriched when distinct cell types are co-localized within close proximity (approximately 55 micrometers) of each other.
+NicheSVM GUI is an extension of the original NicheSVM framework, which was made for analyzing Physically Interacting Cell Sequencing (PIC-seq) data. It has been changed so that it can handle 10X Visium data without any problems. The tool uses multiclass SVMs to separate spatial transcriptomic data, which makes it possible to find gene sets that are unique to the area of cells in a given space. This concept introduces the idea of 'niche-specific genes,' whose expression is enriched when distinct cell types are co-localized within close proximity (approximately 55 micrometres) of each other.
 
 ## Key Features
 
